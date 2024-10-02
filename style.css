@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8F8D9A;
+    text-align: center;
+}
+
+.container {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.game {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0.1);
+    font-size: 2.5rem;
+    background-color: #BDBDBF;
+    color: #000000;
+}
+
+.reset {
+    font-size: 2rem;
+    background-color: #666986;
+    color: white;
+    padding: 0.3rem;
+    border: none;
+    border: 1.5px solid #343650;
+    border-radius: 0.5rem;
+}
+
+.msgContainer {
+    margin-top: 1.8rem;
+}
+
+.msg {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffc7;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    visibility: hidden;
+}
+
+.newGame {
+    font-size: 1rem;
+    background-color: #666986;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border: 1.5px solid #343650;
+    border-radius: 0.3rem;
+    visibility: hidden;
+    margin-top: 0.5rem;
+}
+
+.pointX {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.pointO {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 5px;
+}
+@media (min-width: 768px) {
+    .container{
+        height: 500px;
+        margin-top: 5rem;
+    }
+    
+    .game {
+        width: 800px;
+        height: 550px;
+        margin-top: 5rem;
+    }
+
+    .btn {
+    height: 200px;
+    width: 200px;
+    font-size: 4rem;
+    }
+    .reset{
+        padding: 1rem;
+        font-size: 4rem;
+        margin-top: 10rem;
+    }
+    .msg{
+        font-size: 5rem;
+        margin-top: 1rem;
+    }
+    .newGame{
+        font-size: 3rem;
+        padding: 1rem;
+        margin-top: 5rem;
+    }
+    h1{
+        font-size: 7rem;
+    }
+
+    .pointX {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+    }
+
+    .pointO {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+}
